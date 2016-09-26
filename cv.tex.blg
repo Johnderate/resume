@@ -1,0 +1,5 @@
+[0] Config.pm:354> INFO - This is Biber 2.6
+[1] Config.pm:357> INFO - Logfile is 'cv.tex.blg'
+[75] biber-darwin:302> INFO - === Mon Sep 26, 2016, 22:09:18
+[178] Utils.pm:180> ERROR - Cannot find control file 'cv.tex.bcf'! - did you pass the "backend=biber" option to BibLaTeX?
+[178] Biber.pm:113> INFO - ERRORS: 1
