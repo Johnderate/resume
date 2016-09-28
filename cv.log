@@ -1,4 +1,4 @@
-This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2016.9.26)  27 SEP 2016 13:43
+This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2016.9.26)  28 SEP 2016 13:13
  restricted system commands enabled.
 **cv.tex
 (./cv.tex
@@ -212,7 +212,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.182 seconds)
+luaotfload | main : initialization completed in 0.150 seconds)
 Lua module: fontspec 2016/02/01 2.5a Advanced font selection for LuaLaTeX.
 (/usr/local/texlive/2016basic/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
 Package: fontspec-luatex 2016/02/01 v2.5a Font selection for XeLaTeX and LuaLaTe
@@ -489,11 +489,29 @@ h LuaLaTeX)
 .................................................
 
 (/usr/local/texlive/2016basic/texmf-dist/tex/latex/unicode-math/unicode-math-ta
-ble.tex)))(compiling luc: /usr/local/texlive/2016basic/texmf-var/luatex-cache/ge
-neric/fonts/otl/texgyreheros-regular.luc)(load luc: /Users/janniskramer/Library/
-texlive/2016basic/texmf-var/luatex-cache/generic/fonts/otl/texgyreheros-regular.
-luc)
-\g__fontspec_family_texgyreheros-regular.otf_int=\count126
+ble.tex)))
+(/usr/local/texlive/2016basic/texmf-dist/tex/latex/fontawesome/fontawesome.sty
+Package: fontawesome 2016/05/15 v4.6.3.1 font awesome icons
+
+(/usr/local/texlive/2016basic/texmf-dist/tex/latex/fontawesome/fontawesomesymbo
+ls-generic.tex)
+luaotfload | cache : Lookup cache loaded from /Users/janniskramer/Library/texliv
+e/2016basic/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc.(co
+mpiling luc: /usr/local/texlive/2016basic/texmf-var/luatex-cache/generic/fonts/o
+tl/fontawesome.luc)(load luc: /Users/janniskramer/Library/texlive/2016basic/texm
+f-var/luatex-cache/generic/fonts/otl/fontawesome.luc)
+luaotfload | aux : font no 21 (<unknown>) defines no feature for script latn
+luaotfload | aux : no font with id 21
+\g__fontspec_family_FontAwesome_int=\count126
+luaotfload | aux : font no 21 (<unknown>) does not define feature smcp for scrip
+t  with language 
+luaotfload | aux : no font with id 21
+(/usr/local/texlive/2016basic/texmf-dist/tex/latex/fontawesome/fontawesomesymbo
+ls-xeluatex.tex))(compiling luc: /usr/local/texlive/2016basic/texmf-var/luatex-c
+ache/generic/fonts/otl/texgyreheros-regular.luc)(load luc: /Users/janniskramer/L
+ibrary/texlive/2016basic/texmf-var/luatex-cache/generic/fonts/otl/texgyreheros-r
+egular.luc)
+\g__fontspec_family_texgyreheros-regular.otf_int=\count127
 (compiling luc: /usr/local/texlive/2016basic/texmf-var/luatex-cache/generic/font
 s/otl/texgyreheros-bold.luc)(load luc: /Users/janniskramer/Library/texlive/2016b
 asic/texmf-var/luatex-cache/generic/fonts/otl/texgyreheros-bold.luc)(compiling l
@@ -506,52 +524,52 @@ olditalic.luc)(load luc: /Users/janniskramer/Library/texlive/2016basic/texmf-var
 /local/texlive/2016basic/texmf-var/luatex-cache/generic/fonts/otl/lato-light.luc
 )(load luc: /Users/janniskramer/Library/texlive/2016basic/texmf-var/luatex-cache
 /generic/fonts/otl/lato-light.luc)
-\g__fontspec_family_Lato-Light.ttf_int=\count127
+\g__fontspec_family_Lato-Light.ttf_int=\count128
 luaotfload | db : Reload initiated (formats: otf,ttf,ttc); reason: "File not fou
 nd: Lato-Light.".
-luaotfload | aux : font no 25 (<unknown>) does not define feature smcp for scrip
+luaotfload | aux : font no 26 (<unknown>) does not define feature smcp for scrip
 t latn with language dflt
-luaotfload | aux : no font with id 25
-\g__fontspec_family_texgyreheros-bold.otf_int=\count128
+luaotfload | aux : no font with id 26
+\g__fontspec_family_texgyreheros-bold.otf_int=\count129
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
 (Font)                  OT1/cmr/m/n --> EU2/texgyreheros-regular.otf(2)/m/n on i
-nput line 80.
+nput line 82.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> EU2/texgyreheros-regular.otf(2)/m/it on
- input line 80.
+ input line 82.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> EU2/texgyreheros-regular.otf(2)/bx/n on
- input line 80.
+ input line 82.
 Inserting `luaotfload.color_handler' at position 1 in `post_linebreak_filter'.
 Inserting `luaotfload.color_handler' at position 2 in `hpack_filter'.
 Inserting `luaotfload.color_handler' at position 1 in `mlist_to_hlist'.(compilin
 g luc: /usr/local/texlive/2016basic/texmf-var/luatex-cache/generic/fonts/otl/xit
 s-regular.luc)(load luc: /Users/janniskramer/Library/texlive/2016basic/texmf-var
 /luatex-cache/generic/fonts/otl/xits-regular.luc)
-luaotfload | aux : font no 27 (<unknown>) defines no feature for script math
-luaotfload | aux : no font with id 27
-\g__fontspec_family_xits-regular.otf_int=\count129
-luaotfload | aux : font no 27 (<unknown>) does not define feature smcp for scrip
+luaotfload | aux : font no 28 (<unknown>) defines no feature for script math
+luaotfload | aux : no font with id 28
+\g__fontspec_family_xits-regular.otf_int=\count130
+luaotfload | aux : font no 28 (<unknown>) does not define feature smcp for scrip
 t latn with language dflt
-luaotfload | aux : no font with id 27
-luaotfload | aux : font no 27 (<unknown>) does not define feature ssty for scrip
+luaotfload | aux : no font with id 28
+luaotfload | aux : font no 28 (<unknown>) does not define feature ssty for scrip
 t latn with language dflt
-luaotfload | aux : no font with id 27
-luaotfload | aux : font no 27 (<unknown>) does not define feature ssty for scrip
+luaotfload | aux : no font with id 28
+luaotfload | aux : font no 28 (<unknown>) does not define feature ssty for scrip
 t latn with language dflt
-luaotfload | aux : no font with id 27
-luaotfload | aux : font no 29 (<unknown>) defines no feature for script math
-luaotfload | aux : no font with id 29
+luaotfload | aux : no font with id 28
+luaotfload | aux : font no 30 (<unknown>) defines no feature for script math
+luaotfload | aux : no font with id 30
 LaTeX Font Info:    Encoding `OT1' has changed to `EU2' for symbol font
-(Font)              `operators' in the math version `normal' on input line 83.
+(Font)              `operators' in the math version `normal' on input line 85.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> EU2/xits-regular.otf(0)/m/n on input lin
-e 83.
+e 85.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU2' for symbol font
-(Font)              `operators' in the math version `bold' on input line 83.
+(Font)              `operators' in the math version `bold' on input line 85.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> EU2/xits-regular.otf(0)/bx/n on input l
-ine 83.
+ine 85.
 
 (/usr/local/texlive/2016basic/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 (/usr/local/texlive/2016basic/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
@@ -601,10 +619,10 @@ red.code.tex
 \pgf@yc=\dimen148
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
-\c@pgf@counta=\count130
-\c@pgf@countb=\count131
-\c@pgf@countc=\count132
-\c@pgf@countd=\count133
+\c@pgf@counta=\count131
+\c@pgf@countb=\count132
+\c@pgf@countc=\count133
+\c@pgf@countd=\count134
 \t@pgf@toka=\toks21
 \t@pgf@tokb=\toks22
 \t@pgf@tokc=\toks23
@@ -625,8 +643,8 @@ File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 (/usr/local/texlive/2016basic/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoft
 path.code.tex
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count134
-\pgfsyssoftpath@bigbuffer@items=\count135
+\pgfsyssoftpath@smallbuffer@items=\count135
+\pgfsyssoftpath@bigbuffer@items=\count136
 )
 (/usr/local/texlive/2016basic/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprot
 ocol.code.tex
@@ -644,7 +662,7 @@ tex)
 (/usr/local/texlive/2016basic/texmf-dist/tex/generic/pgf/math/pgfmathparser.cod
 e.tex
 \pgfmath@dimen=\dimen149
-\pgfmath@count=\count136
+\pgfmath@count=\count137
 \pgfmath@box=\box43
 \pgfmath@toks=\toks24
 \pgfmath@stack@operand=\toks25
@@ -670,7 +688,7 @@ misc.code.tex)
 integerarithmetics.code.tex)))
 (/usr/local/texlive/2016basic/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code
 .tex
-\c@pgfmathroundto@lastzeros=\count137
+\c@pgfmathroundto@lastzeros=\count138
 ))
 (/usr/local/texlive/2016basic/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoin
 ts.code.tex
@@ -708,7 +726,7 @@ File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
 \pgfpic=\box44
 \pgf@hbox=\box45
 \pgf@layerbox@main=\box46
-\pgf@picture@serial@count=\count138
+\pgf@picture@serial@count=\count139
 )
 (/usr/local/texlive/2016basic/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregrap
 hicstate.code.tex
@@ -743,7 +761,7 @@ File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
 e.code.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
 \pgf@max=\dimen173
-\pgf@sys@shading@range@num=\count139
+\pgf@sys@shading@range@num=\count140
 )
 (/usr/local/texlive/2016basic/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimag
 e.code.tex
@@ -808,7 +826,7 @@ Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 (/usr/local/texlive/2016basic/texmf-dist/tex/generic/pgf/libraries/pgflibrarypl
 othandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
-\pgf@plot@mark@count=\count140
+\pgf@plot@mark@count=\count141
 \pgfplotmarksize=\dimen178
 )
 \tikz@lastx=\dimen179
@@ -821,19 +839,19 @@ File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
 \tikz@figbox@bg=\box50
 \tikz@tempbox=\box51
 \tikz@tempbox@bg=\box52
-\tikztreelevel=\count141
-\tikznumberofchildren=\count142
-\tikznumberofcurrentchild=\count143
-\tikz@fig@count=\count144
+\tikztreelevel=\count142
+\tikznumberofchildren=\count143
+\tikznumberofcurrentchild=\count144
+\tikz@fig@count=\count145
 
 (/usr/local/texlive/2016basic/texmf-dist/tex/generic/pgf/modules/pgfmodulematri
 x.code.tex
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count145
-\pgfmatrixcurrentcolumn=\count146
-\pgf@matrix@numberofcolumns=\count147
+\pgfmatrixcurrentrow=\count146
+\pgfmatrixcurrentcolumn=\count147
+\pgf@matrix@numberofcolumns=\count148
 )
-\tikz@expandcount=\count148
+\tikz@expandcount=\count149
 
 (/usr/local/texlive/2016basic/texmf-dist/tex/generic/pgf/frontendlayer/tikz/lib
 raries/tikzlibrarytopaths.code.tex
@@ -842,24 +860,32 @@ File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
 (/usr/local/texlive/2016basic/texmf-dist/tex/latex/parskip/parskip.sty
 Package: parskip 2001/04/09 non-zero parskip adjustments
 )
-\c@colorCounter=\count149
+\c@colorCounter=\count150
 
+(/usr/local/texlive/2016basic/texmf-dist/tex/latex/tools/array.sty
+Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen185
+\extrarowheight=\dimen186
+\NC@list=\toks29
+\extratabsurround=\skip49
+\backup@length=\skip50
+)
 (/usr/local/texlive/2016basic/texmf-dist/tex/latex/textpos/textpos.sty
 Package: textpos 2016/06/07 v1.8
 
 Package: textpos 2016/06/07 1.8, absolute positioning of text on the page
 \TP@textbox=\box53
 \TP@holdbox=\box54
-\TPHorizModule=\dimen185
-\TPVertModule=\dimen186
-\TP@margin=\dimen187
-\TP@absmargin=\dimen188
+\TPHorizModule=\dimen187
+\TPVertModule=\dimen188
+\TP@margin=\dimen189
+\TP@absmargin=\dimen190
 Grid set 16 x 16 = 38.39343pt x 49.68562pt
-\TPboxrulesize=\dimen189
-\TP@ox=\dimen190
-\TP@oy=\dimen191
-\TP@tbargs=\toks29
-\TP@prevdepth=\dimen192
+\TPboxrulesize=\dimen191
+\TP@ox=\dimen192
+\TP@oy=\dimen193
+\TP@tbargs=\toks30
+\TP@prevdepth=\dimen194
 TextBlockOrigin set to 0pt x 0pt
 ) (/usr/local/texlive/2016basic/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2016/09/17 v3.6 programmable bibliographies (PK/JW/AB)
@@ -878,7 +904,7 @@ Package pdftexcmds Info: \pdfdraftmode found.
 (/usr/local/texlive/2016basic/texmf-dist/tex/generic/oberdiek/luatex-loader.sty
 Package: luatex-loader 2016/05/16 v0.6 Lua module loader (HO)
 (/usr/local/texlive/2016basic/texmf-dist/scripts/oberdiek/oberdiek.luatex.lua))
-\pdftexcmds@toks=\toks30
+\pdftexcmds@toks=\toks31
 ) (/usr/local/texlive/2016basic/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
@@ -890,7 +916,7 @@ Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 )))
 (/usr/local/texlive/2016basic/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count150
+\lrq@indent=\count151
 
 (/usr/local/texlive/2016basic/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
@@ -905,62 +931,62 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 (/usr/local/texlive/2016basic/texmf-dist/tex/generic/xstring/xstring.sty
 (/usr/local/texlive/2016basic/texmf-dist/tex/generic/xstring/xstring.tex
 \@xs@message=\write4
-\integerpart=\count151
-\decimalpart=\count152
+\integerpart=\count152
+\decimalpart=\count153
 )
 Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 )
-\c@tabx@nest=\count153
-\c@listtotal=\count154
-\c@listcount=\count155
-\c@liststart=\count156
-\c@liststop=\count157
-\c@citecount=\count158
-\c@citetotal=\count159
-\c@multicitecount=\count160
-\c@multicitetotal=\count161
-\c@instcount=\count162
-\c@maxnames=\count163
-\c@minnames=\count164
-\c@maxitems=\count165
-\c@minitems=\count166
-\c@citecounter=\count167
-\c@savedcitecounter=\count168
-\c@uniquelist=\count169
-\c@uniquename=\count170
-\c@refsection=\count171
-\c@refsegment=\count172
-\c@maxextratitle=\count173
-\c@maxextratitleyear=\count174
-\c@maxextrayear=\count175
-\c@maxextraalpha=\count176
-\c@abbrvpenalty=\count177
-\c@highnamepenalty=\count178
-\c@lownamepenalty=\count179
-\c@maxparens=\count180
-\c@parenlevel=\count181
-\blx@tempcnta=\count182
-\blx@tempcntb=\count183
-\blx@tempcntc=\count184
-\blx@maxsection=\count185
-\blx@maxsegment@0=\count186
-\blx@notetype=\count187
-\blx@parenlevel@text=\count188
-\blx@parenlevel@foot=\count189
-\blx@sectionciteorder@0=\count190
-\labelnumberwidth=\skip49
-\labelalphawidth=\skip50
-\biblabelsep=\skip51
-\bibitemsep=\skip52
-\bibnamesep=\skip53
-\bibinitsep=\skip54
-\bibparsep=\skip55
-\bibhang=\skip56
+\c@tabx@nest=\count154
+\c@listtotal=\count155
+\c@listcount=\count156
+\c@liststart=\count157
+\c@liststop=\count158
+\c@citecount=\count159
+\c@citetotal=\count160
+\c@multicitecount=\count161
+\c@multicitetotal=\count162
+\c@instcount=\count163
+\c@maxnames=\count164
+\c@minnames=\count165
+\c@maxitems=\count166
+\c@minitems=\count167
+\c@citecounter=\count168
+\c@savedcitecounter=\count169
+\c@uniquelist=\count170
+\c@uniquename=\count171
+\c@refsection=\count172
+\c@refsegment=\count173
+\c@maxextratitle=\count174
+\c@maxextratitleyear=\count175
+\c@maxextrayear=\count176
+\c@maxextraalpha=\count177
+\c@abbrvpenalty=\count178
+\c@highnamepenalty=\count179
+\c@lownamepenalty=\count180
+\c@maxparens=\count181
+\c@parenlevel=\count182
+\blx@tempcnta=\count183
+\blx@tempcntb=\count184
+\blx@tempcntc=\count185
+\blx@maxsection=\count186
+\blx@maxsegment@0=\count187
+\blx@notetype=\count188
+\blx@parenlevel@text=\count189
+\blx@parenlevel@foot=\count190
+\blx@sectionciteorder@0=\count191
+\labelnumberwidth=\skip51
+\labelalphawidth=\skip52
+\biblabelsep=\skip53
+\bibitemsep=\skip54
+\bibnamesep=\skip55
+\bibinitsep=\skip56
+\bibparsep=\skip57
+\bibhang=\skip58
 \blx@bcfin=\read3
 \blx@bcfout=\write5
-\c@mincomprange=\count191
-\c@maxcomprange=\count192
-\c@mincompwidth=\count193
+\c@mincomprange=\count192
+\c@maxcomprange=\count193
+\c@mincompwidth=\count194
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -969,78 +995,78 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'verbose.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count194
-\c@savedafterword=\count195
-\c@annotator=\count196
-\c@savedannotator=\count197
-\c@author=\count198
-\c@savedauthor=\count199
-\c@bookauthor=\count266
-\c@savedbookauthor=\count267
-\c@commentator=\count268
-\c@savedcommentator=\count269
-\c@editor=\count270
-\c@savededitor=\count271
-\c@editora=\count272
-\c@savededitora=\count273
-\c@editorb=\count274
-\c@savededitorb=\count275
-\c@editorc=\count276
-\c@savededitorc=\count277
-\c@foreword=\count278
-\c@savedforeword=\count279
-\c@holder=\count280
-\c@savedholder=\count281
-\c@introduction=\count282
-\c@savedintroduction=\count283
-\c@namea=\count284
-\c@savednamea=\count285
-\c@nameb=\count286
-\c@savednameb=\count287
-\c@namec=\count288
-\c@savednamec=\count289
-\c@translator=\count290
-\c@savedtranslator=\count291
-\c@shortauthor=\count292
-\c@savedshortauthor=\count293
-\c@shorteditor=\count294
-\c@savedshorteditor=\count295
-\c@labelname=\count296
-\c@savedlabelname=\count297
-\c@institution=\count298
-\c@savedinstitution=\count299
-\c@lista=\count300
-\c@savedlista=\count301
-\c@listb=\count302
-\c@savedlistb=\count303
-\c@listc=\count304
-\c@savedlistc=\count305
-\c@listd=\count306
-\c@savedlistd=\count307
-\c@liste=\count308
-\c@savedliste=\count309
-\c@listf=\count310
-\c@savedlistf=\count311
-\c@location=\count312
-\c@savedlocation=\count313
-\c@organization=\count314
-\c@savedorganization=\count315
-\c@origlocation=\count316
-\c@savedoriglocation=\count317
-\c@origpublisher=\count318
-\c@savedorigpublisher=\count319
-\c@publisher=\count320
-\c@savedpublisher=\count321
-\c@language=\count322
-\c@savedlanguage=\count323
-\c@pageref=\count324
-\c@savedpageref=\count325
-\shorthandwidth=\skip57
-\shortjournalwidth=\skip58
-\shortserieswidth=\skip59
-\shorttitlewidth=\skip60
-\shortauthorwidth=\skip61
-\shorteditorwidth=\skip62
+\c@afterword=\count195
+\c@savedafterword=\count196
+\c@annotator=\count197
+\c@savedannotator=\count198
+\c@author=\count199
+\c@savedauthor=\count266
+\c@bookauthor=\count267
+\c@savedbookauthor=\count268
+\c@commentator=\count269
+\c@savedcommentator=\count270
+\c@editor=\count271
+\c@savededitor=\count272
+\c@editora=\count273
+\c@savededitora=\count274
+\c@editorb=\count275
+\c@savededitorb=\count276
+\c@editorc=\count277
+\c@savededitorc=\count278
+\c@foreword=\count279
+\c@savedforeword=\count280
+\c@holder=\count281
+\c@savedholder=\count282
+\c@introduction=\count283
+\c@savedintroduction=\count284
+\c@namea=\count285
+\c@savednamea=\count286
+\c@nameb=\count287
+\c@savednameb=\count288
+\c@namec=\count289
+\c@savednamec=\count290
+\c@translator=\count291
+\c@savedtranslator=\count292
+\c@shortauthor=\count293
+\c@savedshortauthor=\count294
+\c@shorteditor=\count295
+\c@savedshorteditor=\count296
+\c@labelname=\count297
+\c@savedlabelname=\count298
+\c@institution=\count299
+\c@savedinstitution=\count300
+\c@lista=\count301
+\c@savedlista=\count302
+\c@listb=\count303
+\c@savedlistb=\count304
+\c@listc=\count305
+\c@savedlistc=\count306
+\c@listd=\count307
+\c@savedlistd=\count308
+\c@liste=\count309
+\c@savedliste=\count310
+\c@listf=\count311
+\c@savedlistf=\count312
+\c@location=\count313
+\c@savedlocation=\count314
+\c@organization=\count315
+\c@savedorganization=\count316
+\c@origlocation=\count317
+\c@savedoriglocation=\count318
+\c@origpublisher=\count319
+\c@savedorigpublisher=\count320
+\c@publisher=\count321
+\c@savedpublisher=\count322
+\c@language=\count323
+\c@savedlanguage=\count324
+\c@pageref=\count325
+\c@savedpageref=\count326
+\shorthandwidth=\skip59
+\shortjournalwidth=\skip60
+\shortserieswidth=\skip61
+\shorttitlewidth=\skip62
+\shortauthorwidth=\skip63
+\shorteditorwidth=\skip64
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
@@ -1052,13 +1078,13 @@ Package biblatex Info: ... file 'biblatex.def' found.
 
 (/usr/local/texlive/2016basic/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2016/09/17 v3.6 biblatex compatibility (PK/JW/AB)
-\c@textcitecount=\count326
-\c@textcitetotal=\count327
-\c@textcitemaxnames=\count328
-\c@biburlnumpenalty=\count329
-\c@biburlucpenalty=\count330
-\c@biburllcpenalty=\count331
-\c@smartand=\count332
+\c@textcitecount=\count327
+\c@textcitetotal=\count328
+\c@textcitemaxnames=\count329
+\c@biburlnumpenalty=\count330
+\c@biburlucpenalty=\count331
+\c@biburllcpenalty=\count332
+\c@smartand=\count333
 )
 Package biblatex Info: Trying to load bibliography style 'verbose'...
 Package biblatex Info: ... file 'verbose.bbx' found.
@@ -1074,8 +1100,8 @@ Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
 (/usr/local/texlive/2016basic/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2016/09/17 v3.6 biblatex bibliography style (PK/JW/AB)
-\c@bbx:relatedcount=\count333
-\c@bbx:relatedtotal=\count334
+\c@bbx:relatedcount=\count334
+\c@bbx:relatedtotal=\count335
 )))
 Package biblatex Info: Trying to load citation style 'verbose'...
 Package biblatex Info: ... file 'verbose.cbx' found.
@@ -1098,13 +1124,13 @@ File: biblatex.cfg
 ! Illegal parameter number in definition of \blx@defformat@d.
 <to be read again> 
 3
-l.287   \ifblank{#3
+l.306   \ifblank{#3
                  }{}{#3\space}#1%
 ? 
 ! Illegal parameter number in definition of \blx@defformat@d.
 <to be read again> 
 3
-l.287   \ifblank{#3}{}{#3
+l.306   \ifblank{#3}{}{#3
                        \space}#1%
 ? 
 (/usr/local/texlive/2016basic/texmf-dist/tex/latex/geometry/geometry.sty
@@ -1114,18 +1140,18 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-\Gm@cnth=\count335
-\Gm@cntv=\count336
-\c@Gm@tempcnt=\count337
-\Gm@bindingoffset=\dimen193
-\Gm@wd@mp=\dimen194
-\Gm@odd@mp=\dimen195
-\Gm@even@mp=\dimen196
-\Gm@layoutwidth=\dimen197
-\Gm@layoutheight=\dimen198
-\Gm@layouthoffset=\dimen199
-\Gm@layoutvoffset=\dimen256
-\Gm@dimlist=\toks31
+\Gm@cnth=\count336
+\Gm@cntv=\count337
+\c@Gm@tempcnt=\count338
+\Gm@bindingoffset=\dimen195
+\Gm@wd@mp=\dimen196
+\Gm@odd@mp=\dimen197
+\Gm@even@mp=\dimen198
+\Gm@layoutwidth=\dimen199
+\Gm@layoutheight=\dimen256
+\Gm@layouthoffset=\dimen257
+\Gm@layoutvoffset=\dimen258
+\Gm@dimlist=\toks32
 ))
 (/usr/local/texlive/2016basic/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2016/06/24 v6.83q Hypertext links for LaTeX
@@ -1166,14 +1192,14 @@ Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 ) (/usr/local/texlive/2016basic/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
-\@linkdim=\dimen257
-\Hy@linkcounter=\count338
-\Hy@pagecounter=\count339
+\@linkdim=\dimen259
+\Hy@linkcounter=\count339
+\Hy@pagecounter=\count340
 
 (/usr/local/texlive/2016basic/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2016/06/24 v6.83q Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count340
+\Hy@SavedSpaceFactor=\count341
 
 (/usr/local/texlive/2016basic/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -1185,12 +1211,12 @@ Package hyperref Info: Plain pages OFF on input line 4501.
 Package hyperref Info: Backreferencing OFF on input line 4506.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4735.
-\c@Hy@tempcnt=\count341
+\c@Hy@tempcnt=\count342
 LaTeX Info: Redefining \url on input line 5088.
-\XeTeXLinkMargin=\dimen258
-\Fld@menulength=\count342
-\Field@Width=\dimen259
-\Fld@charsize=\dimen260
+\XeTeXLinkMargin=\dimen260
+\Fld@menulength=\count343
+\Field@Width=\dimen261
+\Fld@charsize=\dimen262
 Package hyperref Info: Hyper figures OFF on input line 6342.
 Package hyperref Info: Link nesting OFF on input line 6347.
 Package hyperref Info: Hyper index ON on input line 6350.
@@ -1200,79 +1226,237 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6367.
 Package hyperref Info: PDF/A mode OFF on input line 6372.
 LaTeX Info: Redefining \ref on input line 6412.
 LaTeX Info: Redefining \pageref on input line 6416.
-\Hy@abspage=\count343
-\c@Item=\count344
-\c@Hfootnote=\count345
+\Hy@abspage=\count344
+\c@Item=\count345
+\c@Hfootnote=\count346
 )
 
 Package hyperref Message: Driver (autodetected): hluatex.
 
 (/usr/local/texlive/2016basic/texmf-dist/tex/latex/hyperref/hluatex.def
 File: hluatex.def 2016/06/24 v6.83q Hyperref driver for luaTeX
-\Fld@listcount=\count346
-\c@bookmark@seq@number=\count347
+\Fld@listcount=\count347
+\c@bookmark@seq@number=\count348
 
 (/usr/local/texlive/2016basic/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 2.
 )
-\Hy@SectionHShift=\skip63
+\Hy@SectionHShift=\skip65
+) (/usr/local/texlive/2016basic/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(/usr/local/texlive/2016basic/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
+\TX@col@width=\dimen263
+\TX@old@table=\dimen264
+\TX@old@col=\dimen265
+\TX@target=\dimen266
+\TX@delta=\dimen267
+\TX@cols=\count349
+\TX@ftn=\toks33
+)
+(/usr/local/texlive/2016basic/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\labelindent=\skip66
+\enit@outerparindent=\dimen268
+\enit@toks=\toks34
+\enit@inbox=\box55
+\enitdp@description=\count350
+)
+(/usr/local/texlive/2016basic/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2016/04/23 3.9r The Babel package
+
+(/usr/local/texlive/2016basic/texmf-dist/tex/generic/babel/luababel.def
+\l@dumylang=\language1
+\l@nohyphenation=\language2
+\l@german-x-2014-05-21=\language3
+\l@ngerman-x-2014-05-21=\language4
+\l@afrikaans=\language5
+\l@ancientgreek=\language6
+\l@ibycus=\language7
+\l@arabic=\language8
+\l@armenian=\language9
+\l@basque=\language10
+\l@bulgarian=\language11
+\l@catalan=\language12
+\l@pinyin=\language13
+\l@churchslavonic=\language14
+\l@coptic=\language15
+\l@croatian=\language16
+\l@czech=\language17
+\l@danish=\language18
+\l@dutch=\language19
+\l@ukenglish=\language20
+\l@usenglishmax=\language21
+\l@esperanto=\language22
+\l@estonian=\language23
+\l@ethiopic=\language24
+\l@farsi=\language25
+\l@finnish=\language26
+\l@french=\language27
+\l@friulan=\language28
+\l@galician=\language29
+\l@georgian=\language30
+\l@german=\language31
+\l@ngerman=\language32
+\l@swissgerman=\language33
+\l@monogreek=\language34
+\l@greek=\language35
+\l@hungarian=\language36
+\l@icelandic=\language37
+\l@assamese=\language38
+\l@bengali=\language39
+\l@gujarati=\language40
+\l@hindi=\language41
+\l@kannada=\language42
+\l@malayalam=\language43
+\l@marathi=\language44
+\l@oriya=\language45
+\l@panjabi=\language46
+\l@tamil=\language47
+\l@telugu=\language48
+\l@indonesian=\language49
+\l@interlingua=\language50
+\l@irish=\language51
+\l@italian=\language52
+\l@kurmanji=\language53
+\l@latin=\language54
+\l@classiclatin=\language55
+\l@liturgicallatin=\language56
+\l@latvian=\language57
+\l@lithuanian=\language58
+\l@mongolian=\language59
+\l@mongolianlmc=\language60
+\l@bokmal=\language61
+\l@nynorsk=\language62
+\l@occitan=\language63
+\l@piedmontese=\language64
+\l@polish=\language65
+\l@portuguese=\language66
+\l@romanian=\language67
+\l@romansh=\language68
+\l@russian=\language69
+\l@sanskrit=\language70
+\l@serbian=\language71
+\l@serbianc=\language72
+\l@slovak=\language73
+\l@slovenian=\language74
+\l@spanish=\language75
+\l@swedish=\language76
+\l@thai=\language77
+\l@turkish=\language78
+\l@turkmen=\language79
+\l@ukrainian=\language80
+\l@uppersorbian=\language81
+\l@welsh=\language82
+)
+(/usr/local/texlive/2016basic/texmf-dist/tex/generic/babel-german/ngerman.ldf
+Language: ngerman 2013/12/13 v2.7 German support for babel (new orthography)
+
+(/usr/local/texlive/2016basic/texmf-dist/tex/generic/babel-german/ngermanb.ldf
+Language: ngermanb 2013/12/13 v2.7 German support for babel (new orthography)
+
+(/usr/local/texlive/2016basic/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2016/04/23 3.9r Babel common definitions
+\babel@savecnt=\count351
+\U@D=\dimen269
+
+(/usr/local/texlive/2016basic/texmf-dist/tex/generic/babel/luababel.def))
+\l@naustrian = a dialect from \language\l@ngerman 
+\l@nswissgerman = a dialect from \language\l@ngerman 
+Package babel Info: Making " an active character on input line 88.
+
+(/usr/local/texlive/2016basic/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyp
+h-de-1996.tex UTF-8 German hyphenation patterns (reformed orthography)
+(/usr/local/texlive/2016basic/texmf-dist/tex/generic/hyph-utf8/patterns/tex/hyp
+h-de-1996.tex
+German Hyphenation Patterns (Reformed Orthography, 2006) `dehyphn-x' 2014-05-21
+ (WL)))))) (/usr/local/texlive/2016basic/texmf-dist/tex/latex/ms/ragged2e.sty
+Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
+
+(/usr/local/texlive/2016basic/texmf-dist/tex/latex/ms/everysel.sty
+Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
+)
+\CenteringLeftskip=\skip67
+\RaggedLeftLeftskip=\skip68
+\RaggedRightLeftskip=\skip69
+\CenteringRightskip=\skip70
+\RaggedLeftRightskip=\skip71
+\RaggedRightRightskip=\skip72
+\CenteringParfillskip=\skip73
+\RaggedLeftParfillskip=\skip74
+\RaggedRightParfillskip=\skip75
+\JustifyingParfillskip=\skip76
+\CenteringParindent=\skip77
+\RaggedLeftParindent=\skip78
+\RaggedRightParindent=\skip79
+\JustifyingParindent=\skip80
 )
 .................................................
 . lualatex-math info: "patch-macro"
 . 
 . I'm going to patch macro \frac.
 .................................................
-Package biblatex Info: Trying to load language 'english'...
-Package biblatex Info: ... file 'english.lbx' found.
- (/usr/local/texlive/2016basic/texmf-dist/tex/latex/biblatex/lbx/english.lbx
-File: english.lbx 2016/09/17 v3.6 biblatex localization (PK/JW/AB)
-)
-\@quotelevel=\count348
-\@quotereset=\count349
+Package biblatex Info: Trying to load language 'ngerman'...
+Package biblatex Info: ... file 'ngerman.lbx' found.
 
+(/usr/local/texlive/2016basic/texmf-dist/tex/latex/biblatex/lbx/ngerman.lbx
+File: ngerman.lbx 2016/09/17 v3.6 biblatex localization (PK/JW/AB)
+Package biblatex Info: Trying to load language 'german'...
+Package biblatex Info: ... file 'german.lbx' found.
+
+(/usr/local/texlive/2016basic/texmf-dist/tex/latex/biblatex/lbx/german.lbx
+File: german.lbx 2016/09/17 v3.6 biblatex localization (PK/JW/AB)
+))
+
+Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
+(biblatex)                Loading 'csquotes' recommended.
+
+\@quotelevel=\count352
+\@quotereset=\count353
 (./cv.aux)
 \openout1 = cv.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for EU2/lmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 5.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 5.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for EU2/lmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 17.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 17.
  (/usr/local/texlive/2016basic/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
 
 (/usr/local/texlive/2016basic/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count350
-\scratchdimen=\dimen261
-\scratchbox=\box55
-\nofMPsegments=\count351
-\nofMParguments=\count352
-\everyMPshowfont=\toks32
-\MPscratchCnt=\count353
-\MPscratchDim=\dimen262
-\MPnumerator=\count354
-\makeMPintoPDFobject=\count355
-\everyMPtoPDFconversion=\toks33
+\scratchcounter=\count354
+\scratchdimen=\dimen270
+\scratchbox=\box56
+\nofMPsegments=\count355
+\nofMParguments=\count356
+\everyMPshowfont=\toks35
+\MPscratchCnt=\count357
+\MPscratchDim=\dimen271
+\MPnumerator=\count358
+\makeMPintoPDFobject=\count359
+\everyMPtoPDFconversion=\toks36
 ) (/usr/local/texlive/2016basic/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 (/usr/local/texlive/2016basic/texmf-dist/tex/latex/oberdiek/grfext.sty
@@ -1298,8 +1482,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'cv.bbl' found.
  (./cv.bbl)
-Package biblatex Info: Reference section=0 on input line 5.
-Package biblatex Info: Reference segment=0 on input line 5.
+Package biblatex Info: Reference section=0 on input line 17.
+Package biblatex Info: Reference segment=0 on input line 17.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1335,8 +1519,8 @@ Package biblatex Info: Reference segment=0 on input line 5.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\AtBeginShipoutBox=\box56
-Package hyperref Info: Link coloring OFF on input line 5.
+\AtBeginShipoutBox=\box57
+Package hyperref Info: Link coloring OFF on input line 17.
 (/usr/local/texlive/2016basic/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -1344,74 +1528,151 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 y
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count356
+\c@section@level=\count360
 )
-LaTeX Info: Redefining \ref on input line 5.
-LaTeX Info: Redefining \pageref on input line 5.
-LaTeX Info: Redefining \nameref on input line 5.
+LaTeX Info: Redefining \ref on input line 17.
+LaTeX Info: Redefining \pageref on input line 17.
+LaTeX Info: Redefining \nameref on input line 17.
  (./cv.out) (./cv.out)
 \@outlinefile=\write6
 
 \openout6 = cv.out
+ ABD: EverySelectfont initializing macros
+LaTeX Info: Redefining \selectfont on input line 17.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 ...[leftmargin=0pt,align=center,labelsep=1.5em]
+                                                  
+? 
+! Undefined control sequence.
+\enit@align #1->\penalty \@M \clap 
+                                   {#1}
+l.28       \item[{\FA \symbol{"F1FD}}]
+                                     10. März 1995
+? 
+! Undefined control sequence.
+\enit@align #1->\penalty \@M \clap 
+                                   {#1}
+l.29       \item[]
+                 in Saarlouis
+? 
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.30   \end{itemize}
+                  
+? 
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.31 
+   
+? 
+
+! LaTeX Error: \begin{flushleft} on input line 25 ended by \end{flushright}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.53 \end{aside}
+              
+? 
+
+Overfull \hbox (8.17007pt too wide) in paragraph at lines 57--59
+[]\EU2/texgyreheros-bold.otf(0)/m/n/14.4 obi-le ap-p-li-ca-ti-ons, soft-ware te
+s-ting, ga-me de-ve-lop-ment, web
+ []
+
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 28.
+(Font)              <14.4> on input line 64.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 28.
+(Font)              <7> on input line 64.
 
-Underfull \hbox (badness 10000) in paragraph at lines 44--58
+LaTeX Font Warning: Font shape `EU2/texgyreheros-bold.otf(0)/m/it' undefined
+(Font)              using `EU2/texgyreheros-bold.otf(0)/m/n' instead on input li
+ne 70.
 
+
+Underfull \hbox (badness 3713) in paragraph at lines 76--76
+[][]\EU2/texgyreheros-bold.otf(0)/m/it/14.4 Ge-lehr-ten-schu-le des Jo-han-ne-u
+ms, Ham-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--73
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 76--83
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 86--102
+Underfull \hbox (badness 10000) in paragraph at lines 64--78
 
  []
 
 [1
 
 {/usr/local/texlive/2016basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 117.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 117.
+Underfull \hbox (badness 10000) in paragraph at lines 81--93
 
-(./cv.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 117.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 117.
+ []
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 96--103
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--122
+
+ []
+
+[3]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 137.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 137.
+ (./cv.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 137.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 137.
 Package rerunfilecheck Info: File `cv.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
 Package logreq Info: Writing requests to 'cv.run.xml'.
 
 \openout1 = cv.run.xml
 )
+(\end occurred inside a group at level 1)
+
+### semi simple group (level 1) entered at line 23 (\begingroup)
+### bottom level
 
 Here is how much of LuaTeX's memory you used:
- 39335 strings out of 495119
+ 41920 strings out of 495119
  125171,1373583 words of node,token memory allocated
- 559 words of node memory still in use:
-   3 hlist, 1 vlist, 1 rule, 21 glue, 12 attribute, 51 glue_spec, 11 attribute_l
+ 993 words of node memory still in use:
+   5 hlist, 1 vlist, 2 rule, 60 glue, 28 attribute, 66 glue_spec, 25 attribute_l
 ist, 1 write nodes
-   avail lists: 1:5,2:1027,3:137,4:161,5:204,6:1537,7:604,8:18,9:177,10:5,11:151
+   avail lists: 1:4,2:793,3:123,4:95,5:112,6:953,7:443,8:10,9:134,10:5,11:121
+ 44203 multiletter control sequences out of 65536+600000
+ 50 fonts using 6305463 bytes
+ 73i,9n,74p,1126b,1566s stack positions out of 5000i,500n,10000p,200000b,100000s
+</usr/local/texlive/2016basic/texmf-dist/fonts/opentype/public/fontawesome/FontA
+wesome.otf></usr/local/texlive/2016basic/texmf-dist/fonts/opentype/public/tex-gy
+re/texgyreheros-bold.otf><./texgyreheros-regular.otf><./Lato-Light.ttf>
+Output written on cv.pdf (3 pages, 26489 bytes).
 
- 41743 multiletter control sequences out of 65536+600000
- 55 fonts using 7245431 bytes
- 73i,9n,79p,948b,698s stack positions out of 5000i,500n,10000p,200000b,100000s
-<./xits-regular.otf></usr/local/texlive/2016basic/texmf-dist/fonts/opentype/publ
-ic/tex-gyre/texgyreheros-italic.otf></usr/local/texlive/2016basic/texmf-dist/fon
-ts/opentype/public/tex-gyre/texgyreheros-bold.otf><./texgyreheros-regular.otf><.
-/Lato-Light.ttf>
-Output written on cv.pdf (1 page, 26773 bytes).
-
-PDF statistics: 59 PDF objects out of 1000 (max. 8388607)
- 40 compressed objects within 1 object stream
- 2 named destinations out of 1000 (max. 131072)
+PDF statistics: 61 PDF objects out of 1000 (max. 8388607)
+ 43 compressed objects within 1 object stream
+ 4 named destinations out of 1000 (max. 131072)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

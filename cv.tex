@@ -1,6 +1,18 @@
 %!TEX TS-program = xelatex
 \documentclass[]{friggeri-cv}
+
+\usepackage{setspace}
+\usepackage{fontspec}
+\usepackage{fontawesome}
+\usepackage{tabularx}
+\usepackage{enumitem}
+\usepackage[ngerman]{babel}
+\usepackage{ragged2e}
+
 \addbibresource{bibliography.bib}
+
+%\usepackage{mathtools}
+\SetLabelAlign{center}{\clap{#1}}
 
 \begin{document}
 \header{jannis}{krämer}
@@ -8,28 +20,36 @@
 
 
 % In the aside, each new line forces a line break
+\onehalfspace
+
 \begin{aside}
   \section{about}
+  \begin{itemize}[leftmargin=0pt,align=center,labelsep=1.5em]
+      \item[{\FA \symbol{"F1FD}}] 10. März 1995
+      \item[] in Saarlouis
+  \end{itemize}
+
+  \section{contact}
     Tilsiter Straße 2f
     22049 Hamburg
-    Germany
     ~
-    \href{mailto:jannis@4kraemer.me}{jannis@4kraemer.me}
+    \faEnvelope \ \href{mailto:jannis@4kraemer.me}{jannis@4kraemer.me}
     \href{http://4kraemer.me}{http://4kraemer.me}
     %\href{http://twitter.com/johnderate}{twitter://@johnderate}
-    \href{http://linkedin.com/in/jannis-kraemer}{linkedin://J.Krämer}
-    \href{https://github.com/Johnderate}{github://Johnderate}
+    \faLinkedin \ \ \href{http://linkedin.com/in/jannis-kraemer}{jannis-kraemer}
+    \faGithub \ \ \href{https://github.com/Johnderate}{Johnderate}
     ~
   \section{languages}
     german native speaker
     english fluent speaker
     ~
   \section{programming}
-    Java {\color{red} $\varheartsuit$}, C\# {\color{red} $\varheartsuit$}, Racket
-    Android {\color{red}\ensuremath\varheartsuit}
-    macOS \color{red}{\ensuremath\varheartsuit}, Linux, Windows
-    MySQL, MSSQL
-    Git, Team Foundation Server
+    \faCode \ Java {\color{red} \faHeart}, C\# {\color{red} \faHeart}, Racket
+    \faMobile \ \ Android {\color{red} \faHeart}
+    \faHtml5 \ \ HTML5, CSS3
+    \faLaptop \ \ macOS {\color{red} \faHeart}, Linux, Windows
+    \faDatabase \ \ MySQL, MSSQL
+    \faCodeFork \ \ Git, Team Foundation Server
 \end{aside}
 
 \section{interests}
