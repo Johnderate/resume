@@ -62,8 +62,6 @@
 \RequirePackage[quiet]{fontspec}
 \RequirePackage[math-style=TeX,vargreek-shape=unicode]{unicode-math}
 
-\RequirePackage{fontawesome}
-
 \newfontfamily\bodyfont
 [BoldFont=texgyreheros-bold.otf,
 ItalicFont=texgyreheros-italic.otf,
@@ -120,36 +118,20 @@ BoldItalicFont=texgyreheros-bolditalic.otf
 \RequirePackage{parskip}
 
 \newcounter{colorCounter}
-\def\@sectioncolor#1{%
+\def\@sectioncolor#1#2#3{%
   {%
     \color{%
       \ifcase\value{colorCounter}%
-        brown\or%
         blue\or%
-        green\or%
-        purple\or%
         red\or%
-        orange\else%
+        orange\or%
+        green\or%
+        purple\else%
         headercolor\fi%
-    } #1%
+    } #1#2#3%
   }%
   \stepcounter{colorCounter}%
 }
-%\def\@sectioncolor{%
-  %{%
-    %\color{%
-      %\ifcase\value{colorCounter}%
-        %red\or%
-        %blue\or%
-        %orange\or%
-        %purple\or%
-        %brown\or%
-        %green\else%
-        %headercolor\fi%
-    %}%
-  %}%
-  %\stepcounter{colorCounter}%
-%}
 
 \renewcommand{\section}[1]{
   \par\vspace{\parskip}
@@ -160,23 +142,22 @@ BoldItalicFont=texgyreheros-bolditalic.otf
   \par\vspace{\parskip}
 }
 
-\renewcommand{\subsection}[2]{
+\renewcommand{\subsection}[1]{
   \par\vspace{.5\parskip}%
-  \Large\headingfont\color{headercolor} #2%
+  {%
+  \large\headingfont\color{headercolor} #1%
+  }
   \par\vspace{.25\parskip}%
 }
 
 \pagestyle{empty}
 
+
 %%%%%%%%%%%%%%%%%%%%
 % List environment %
 %%%%%%%%%%%%%%%%%%%%
 
-\RequirePackage{array}
-
 \setlength{\tabcolsep}{0pt}
-% \setlength{\extrarowheight}{20pt}
-\renewcommand{\arraystretch}{3}
 \newenvironment{entrylist}{%
   \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}ll}
 }{%
@@ -184,7 +165,7 @@ BoldItalicFont=texgyreheros-bolditalic.otf
 }
 \renewcommand{\bfseries}{\headingfont\color{headercolor}}
 \newcommand{\entry}[4]{%
-  #1&\parbox[t]{10.5cm}{%
+  #1&\parbox[t]{11.8cm}{%
     \textbf{#2}%
     \hfill%
     {\footnotesize\addfontfeature{Color=lightgray} #3}\\%
@@ -205,7 +186,7 @@ BoldItalicFont=texgyreheros-bolditalic.otf
     \par\vspace{\baselineskip}{\Large\headingfont\color{headercolor} ##1}
   }
   \begin{textblock}{3.6}(1.5, 4.33)
-  \begin{flushleft}
+  \begin{flushright}
   \obeycr
 }{%
   \restorecr
