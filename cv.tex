@@ -1,55 +1,72 @@
 %!TEX TS-program = xelatex
 \documentclass[]{friggeri-cv}
-\addbibresource{bibliography.bib}
+
+  \setlength{\tabcolsep}{5pt}
+  \renewcommand{\arraystretch}{0.3}
 
 \begin{document}
 \header{jannis}{krämer}
-       {mobile developer with testing experience}
+       {software tester with passion for mobile}
 
 
 % In the aside, each new line forces a line break
 \begin{aside}
   \section{about}
-    Tilsiter Straße 2f
-    22049 Hamburg
-    Germany
+    \begin{tabular}{r c}
+      31.07.1997 & \faBirthdayCake \\
+      in Hamburg & \\
+    \end{tabular}
     ~
-    \href{mailto:jannis@4kraemer.me}{jannis@4kraemer.me}
-    \href{http://4kraemer.me}{http://4kraemer.me}
-    %\href{http://twitter.com/johnderate}{twitter://@johnderate}
-    \href{http://linkedin.com/in/jannis-kraemer}{linkedin://J.Krämer}
-    \href{https://github.com/Johnderate}{github://Johnderate}
+  \section{contact}
+    \begin{tabular}{r c}
+      Tilsiter Straße 2f  & \faMapMarker \\
+      22049 Hamburg & \\
+      Germany & \\
+       & \\
+      +49 178 3277262 & \faPhone \\
+      \href{mailto:jannis@4kraemer.me}{jannis@4kraemer.me} & \faEnvelope \\
+      \href{http://4kraemer.me}{http://4kraemer.me} & \faGlobe \\
+      %\href{http://twitter.com/johnderate}{@johnderate} & \faTwitter \\
+      \href{http://linkedin.com/in/jannis-kraemer}{jannis-kraemer} & \faLinkedin \\
+      \href{https://github.com/Johnderate}{Johnderate}  & \faGithub \\
+    \end{tabular}
     ~
   \section{languages}
-    german native speaker
-    english fluent speaker
+    \begin{tabular}{r c}
+      german native speaker & \faLanguage \\
+      english fluent speaker & \\
+    \end{tabular}
     ~
   \section{programming}
-    Java {\color{red} $\varheartsuit$}, C\# {\color{red} $\varheartsuit$}, Racket
-    Android {\color{red}\ensuremath\varheartsuit}
-    macOS \color{red}{\ensuremath\varheartsuit}, Linux, Windows
-    MySQL, MSSQL
-    Git, Team Foundation Server
+    \begin{tabular}{r c}
+      Java {\color{red} \faHeart}, C\# {\color{red} \faHeart}, & \faCode \\
+      Racket & \\
+      Android {\color{red} \faHeart} & \faMobile \\
+      macOS {\color{red} \faHeart}, Linux, & \faLaptop \\
+      Windows & \\
+      MySQL, MSSQL & \faDatabase \\
+      Git, Team Foundation & \faCodeFork \\
+    \end{tabular}
 \end{aside}
 
 \section{interests}
   \subsection{work}
-    mobile applications, software testing, game development, web development
+    mobile applications, web development, game development
   \subsection{private}
-    games, singing (classical), political science
+    singing (classical), political science, strategie games
 
 
 \section{experience}
 
 \begin{entrylist}
   \entry
-    {02–10 2016}
+    {02 - 10 2016}
     {Orange Networks, Hamburg}
     {Software Tester}
     {\emph{Testing of an application for software deployment, used e.g. in Hamburgs authorities and at Dataport.}\\
     Written a custom Framework for Microsoft Coded UI Tests.} \\
   \entry
-    {06–07 2015}
+    {02 - 07 2015}
     {Gelehrtenschule des Johanneums, Hamburg}
     {Teaching}
     {\emph{Teaching computer science in extracurricular course.}\\
@@ -60,13 +77,13 @@
 
 \begin{entrylist}
   \entry
-    {since 2014}
-    {B.Sc. {\normalfont in Computer Science}}
+    {2014 - }
+    {Bachelor of Science student {\normalfont in Computer Science}}
     {University of Hamburg}
     {Volunteering as student representative and in the orientation unit}
   \entry
     {2006 - 2014}
-    {Abitur}
+    {Gymnasium (Abitur)}
     {Gelehrtenschule des Johanneums}
     {Awarded by the German Physical Society for the second best Abitur in physics.}
 \end{entrylist}
@@ -85,33 +102,15 @@
 
   \begin{entrylist}
     \entry
-      {since 2015}
+      {2015 - }
       {St. Jacobi Principal Church, Hamburg}
       {\href{http://www.jacobus.de}{jacobus.de}}
       {Church choir (Kantorei St. Jacobi) and lector}
     \entry
-      {since 2014}
+      {2014 - }
       {University of Hamburg, Department of Informatics}
       {\href{https://www.inf.uni-hamburg.de/en.html}{inf.uni-hamburg.de}}
       {Student representative and orientation unit}
   \end{entrylist}
-%%% Nothing to see here!
-%\section{publications}
-%
-%Put your publications here!
-
-%%% This piece of code has been commented by Karol Kozioł due to biblatex errors.
-%
-%\printbibsection{article}{article in peer-reviewed journal}
-%\begin{refsection}
-%  \nocite{*}
-%  \printbibliography[sorting=chronological, type=inproceedings, title={international peer-reviewed conferences/proceedings}, notkeyword={france}, heading=subbibliography]
-%\end{refsection}
-%\begin{refsection}
-%  \nocite{*}
-%  \printbibliography[sorting=chronological, type=inproceedings, title={local peer-reviewed conferences/proceedings}, keyword={france}, heading=subbibliography]
-%\end{refsection}
-%\printbibsection{misc}{other publications}
-%\printbibsection{report}{research reports}
 
 \end{document}
