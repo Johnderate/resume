@@ -62,7 +62,7 @@
 \RequirePackage[quiet]{fontspec}
 \RequirePackage{unicode-math}
 
-\RequirePackage{fontawesome5}
+\RequirePackage{fontawesome}
 
 \newfontfamily\bodyfont
 [BoldFont=texgyreheros-bold.otf,
